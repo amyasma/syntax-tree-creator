@@ -1,0 +1,79 @@
+<style>
+table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: lightblue;}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+
+</head>
+<body style = "margin: 70px" onclick="mouse(event)">
+	<style>
+body {
+  background: #BEBEBE;
+  color: #000000;
+  line-height: 1.618em;
+}
+h1 {
+  background: grey;
+  line-height: 1.618em;
+  padding: 6px 12px
+}
+section {
+  background: white;
+  line-height: 2.5 em;
+  padding: 12px 9px 
+}
+
+ div {
+  background: lightblue;
+  height: 1 rem;
+
+}
+.buttons {
+width: 660px;
+margin: 0 auto;}
+
+.action_btn {
+width: 480px;
+margin: 0 auto;}
+</style>

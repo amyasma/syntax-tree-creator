@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asma Term Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onclick="mouse(event)">
+
+  <center>
+    <h1><span>Syntax Tree Creator</span></h1>
+    <hr>
+  </center>
+
+  <div class="tab">
+    <button class="tablinks" onclick="opentab(event, 'About Me')">About Me</button>
+    <button class="tablinks" onclick="opentab(event, 'Instructions')">Instruction</button>
+  </div>
+
+  <div id="About Me" class="tabcontent">
+    <p>
+      Hi, I am <b>Asma</b> and this is my term project for <i>Ling508</i> by
+      <i>Prof. Sandiway Fong</i>.
+    </p>
+  </div>
+
+  <div id="Instructions" class="tabcontent">
+    <p>
+      Start by entering nodes, click on canvas, then use buttons to build syntax trees.
+    </p>
+  </div>
+
+  <br>
+
+  <section>
+    <center>
+
+      <div class="buttons">
+        <div class="action_btn">
+          <button type="button" onclick="binary_branch()">Binary Branch</button>
+          <button type="button" onclick="unary_branch()">Branch</button>
+          <button type="button" onclick="insert_null()">Insert Null</button>
+          <button type="button" onclick="tri()">Triangle</button>
+        </div>
+      </div>
+
+      <br>
+
+      <input id="item3" placeholder="Start Your Tree">
+      <br>
+
+      <input id="item" placeholder="enter left phrase">
+      <input id="itemtext" placeholder="enter text">
+      <br>
+
+      <input id="item2" placeholder="enter right phrase">
+      <input id="itemtext2" placeholder="enter text">
+
+      <br><br>
+
+      <canvas id="myCanvas" width="600" height="400" style="border:1px solid #000;"></canvas>
+
+    </center>
+  </section>
+
+  <br>
+
+  X-coordinate:
+  <input type="text" id="1">
+
+  <br>
+
+  Y-coordinate:
+  <input type="text" id="2">
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
