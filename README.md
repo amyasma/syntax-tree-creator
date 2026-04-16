@@ -18,6 +18,8 @@ This project was built as a term project for Ling508.
 - Simple tab-based interface (About / Instructions)
 - Lightweight, runs fully in the browser (no installation required)
 
+<img src="img.png" width="300" alt="Alt Text">
+
 ## How to Use
 1. Open the HTML file in any modern web browser.
 2. Enter the root node in the "Start Your Tree" field.
